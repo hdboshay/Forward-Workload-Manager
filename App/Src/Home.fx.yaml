@@ -1,0 +1,1177 @@
+Home As screen:
+    Fill: =    Color.White
+
+    HomeLable As label:
+        Text: ="Home"
+        X: =576
+        Y: =64
+        ZIndex: =1
+
+    HomeToProjectSummary As button:
+        Height: =55
+        OnSelect: =Navigate(ProjectSummaryPage)
+        Text: |-
+            ="ProjectSummary Display
+            "
+        Width: =346
+        X: =425
+        Y: =141
+        ZIndex: =3
+
+    HomeToAddEngineer As button:
+        Height: =45
+        OnSelect: =Navigate(AddEngineer)
+        Text: |-
+            ="Create Engineer
+            "
+        Width: =346
+        X: =425
+        Y: =267
+        ZIndex: =4
+
+    HomeToEngineerWorkloadAllocation As button:
+        Height: =58
+        OnSelect: |-
+            =UpdateContext({Allocation_SelectedDate: Today()});
+            Reset(SelectEngineer_Combo);
+            Reset(SelectProject_Combo);
+            Set(
+                allocation1MonthText,
+                Text(
+                    Allocation_SelectedDate,
+                    "mmmm"
+                )
+            );
+            Set(
+                allocation1MonthNum,
+                Int(
+                    Text(
+                        Allocation_SelectedDate,
+                        "mm"
+                    )
+                )
+            );
+            Set(
+                allocation1Year,
+                Text(
+                    Allocation_SelectedDate,
+                    "yyyy"
+                )
+            );
+            Set(
+                allocation2MonthText,
+                Text(
+                    DateAdd(
+                        Allocation_SelectedDate,
+                        1,
+                        TimeUnit.Months
+                    ),
+                    "mmmm"
+                )
+            );
+            Set(
+                allocation2MonthNum,
+                Int(
+                    Text(
+                        DateAdd(
+                            Allocation_SelectedDate,
+                            1,
+                            TimeUnit.Months
+                        ),
+                        "mm"
+                    )
+                )
+            );
+            Set(
+                allocation2Year,
+                Text(
+                    DateAdd(
+                        Allocation_SelectedDate,
+                        1,
+                        TimeUnit.Months
+                    ),
+                    "yyyy"
+                )
+            );
+            Set(
+                allocation3MonthText,
+                Text(
+                    DateAdd(
+                        Allocation_SelectedDate,
+                        2,
+                        TimeUnit.Months
+                    ),
+                    "mmmm"
+                )
+            );
+            Set(
+                allocation3MonthNum,
+                Int(
+                    Text(
+                        DateAdd(
+                            Allocation_SelectedDate,
+                            2,
+                            TimeUnit.Months
+                        ),
+                        "mm"
+                    )
+                )
+            );
+            Set(
+                allocation3Year,
+                Text(
+                    DateAdd(
+                        Allocation_SelectedDate,
+                        2,
+                        TimeUnit.Months
+                    ),
+                    "yyyy"
+                )
+            );
+            Set(
+                allocation4MonthText,
+                Text(
+                    DateAdd(
+                        Allocation_SelectedDate,
+                        3,
+                        TimeUnit.Months
+                    ),
+                    "mmmm"
+                )
+            );
+            Set(
+                allocation4MonthNum,
+                Int(
+                    Text(
+                        DateAdd(
+                            Allocation_SelectedDate,
+                            3,
+                            TimeUnit.Months
+                        ),
+                        "mm"
+                    )
+                )
+            );
+            Set(
+                allocation4Year,
+                Text(
+                    DateAdd(
+                        Allocation_SelectedDate,
+                        3,
+                        TimeUnit.Months
+                    ),
+                    "yyyy"
+                )
+            );
+            Set(
+                allocation5MonthText,
+                Text(
+                    DateAdd(
+                        Allocation_SelectedDate,
+                        4,
+                        TimeUnit.Months
+                    ),
+                    "mmmm"
+                )
+            );
+            Set(
+                allocation5MonthNum,
+                Int(
+                    Text(
+                        DateAdd(
+                            Allocation_SelectedDate,
+                            4,
+                            TimeUnit.Months
+                        ),
+                        "mm"
+                    )
+                )
+            );
+            Set(
+                allocation5Year,
+                Text(
+                    DateAdd(
+                        Allocation_SelectedDate,
+                        4,
+                        TimeUnit.Months
+                    ),
+                    "yyyy"
+                )
+            );
+            Set(
+                allocation6MonthText,
+                Text(
+                    DateAdd(
+                        Allocation_SelectedDate,
+                        5,
+                        TimeUnit.Months
+                    ),
+                    "mmmm"
+                )
+            );
+            Set(
+                allocation6MonthNum,
+                Int(
+                    Text(
+                        DateAdd(
+                            Allocation_SelectedDate,
+                            5,
+                            TimeUnit.Months
+                        ),
+                        "mm"
+                    )
+                )
+            );
+            Set(
+                allocation6Year,
+                Text(
+                    DateAdd(
+                        Allocation_SelectedDate,
+                        5,
+                        TimeUnit.Months
+                    ),
+                    "yyyy"
+                )
+            );
+            Set(
+                allocation7MonthText,
+                Text(
+                    DateAdd(
+                        Allocation_SelectedDate,
+                        6,
+                        TimeUnit.Months
+                    ),
+                    "mmmm"
+                )
+            );
+            Set(
+                allocation7MonthNum,
+                Int(
+                    Text(
+                        DateAdd(
+                            Allocation_SelectedDate,
+                            6,
+                            TimeUnit.Months
+                        ),
+                        "mm"
+                    )
+                )
+            );
+            Set(
+                allocation7Year,
+                Text(
+                    DateAdd(
+                        Allocation_SelectedDate,
+                        6,
+                        TimeUnit.Months
+                    ),
+                    "yyyy"
+                )
+            );
+            Set(
+                allocation8MonthText,
+                Text(
+                    DateAdd(
+                        Allocation_SelectedDate,
+                        7,
+                        TimeUnit.Months
+                    ),
+                    "mmmm"
+                )
+            );
+            Set(
+                allocation8MonthNum,
+                Int(
+                    Text(
+                        DateAdd(
+                            Allocation_SelectedDate,
+                            7,
+                            TimeUnit.Months
+                        ),
+                        "mm"
+                    )
+                )
+            );
+            Set(
+                allocation8Year,
+                Text(
+                    DateAdd(
+                        Allocation_SelectedDate,
+                        7,
+                        TimeUnit.Months
+                    ),
+                    "yyyy"
+                )
+            );
+            Set(
+                allocation9MonthText,
+                Text(
+                    DateAdd(
+                        Allocation_SelectedDate,
+                        8,
+                        TimeUnit.Months
+                    ),
+                    "mmmm"
+                )
+            );
+            Set(
+                allocation9MonthNum,
+                Int(
+                    Text(
+                        DateAdd(
+                            Allocation_SelectedDate,
+                            8,
+                            TimeUnit.Months
+                        ),
+                        "mm"
+                    )
+                )
+            );
+            Set(
+                allocation9Year,
+                Text(
+                    DateAdd(
+                        Allocation_SelectedDate,
+                        8,
+                        TimeUnit.Months
+                    ),
+                    "yyyy"
+                )
+            );
+            Set(
+                allocation10MonthText,
+                Text(
+                    DateAdd(
+                        Allocation_SelectedDate,
+                        9,
+                        TimeUnit.Months
+                    ),
+                    "mmmm"
+                )
+            );
+            Set(
+                allocation10MonthNum,
+                Int(
+                    Text(
+                        DateAdd(
+                            Allocation_SelectedDate,
+                            9,
+                            TimeUnit.Months
+                        ),
+                        "mm"
+                    )
+                )
+            );
+            Set(
+                allocation10Year,
+                Text(
+                    DateAdd(
+                        Allocation_SelectedDate,
+                        9,
+                        TimeUnit.Months
+                    ),
+                    "yyyy"
+                )
+            );
+            Set(
+                allocation11MonthText,
+                Text(
+                    DateAdd(
+                        Allocation_SelectedDate,
+                        10,
+                        TimeUnit.Months
+                    ),
+                    "mmmm"
+                )
+            );
+            Set(
+                allocation11MonthNum,
+                Int(
+                    Text(
+                        DateAdd(
+                            Allocation_SelectedDate,
+                            10,
+                            TimeUnit.Months
+                        ),
+                        "mm"
+                    )
+                )
+            );
+            Set(
+                allocation11Year,
+                Text(
+                    DateAdd(
+                        Allocation_SelectedDate,
+                        10,
+                        TimeUnit.Months
+                    ),
+                    "yyyy"
+                )
+            );
+            Set(
+                allocation12MonthText,
+                Text(
+                    DateAdd(
+                        Allocation_SelectedDate,
+                        11,
+                        TimeUnit.Months
+                    ),
+                    "mmmm"
+                )
+            );
+            Set(
+                allocation12MonthNum,
+                Int(
+                    Text(
+                        DateAdd(
+                            Allocation_SelectedDate,
+                            11,
+                            TimeUnit.Months
+                        ),
+                        "mm"
+                    )
+                )
+            );
+            Set(
+                allocation12Year,
+                Text(
+                    DateAdd(
+                        Allocation_SelectedDate,
+                        11,
+                        TimeUnit.Months
+                    ),
+                    "yyyy"
+                )
+            );
+            //Add all columns from another table code
+            ClearCollect(
+                TempTable1,
+                AddColumns(
+                    EngineerAllocation,
+                    PersonID,
+                    LookUp(
+                        EngineerProjects,
+                        AllocationID = EngineerAllocation[@AllocationID],
+                        PersonID
+                    )
+                )
+            );
+            ClearCollect(
+                TempTable2,
+                AddColumns(
+                    TempTable1,
+                    Projects,
+                    LookUp(
+                        EngineerProjects,
+                        AllocationID = TempTable1[@AllocationID],
+                        Projects
+                    )
+                )
+            );
+            ClearCollect(
+                JoinedAllocationTable,
+                AddColumns(
+                    TempTable2,
+                    PersonName,
+                    LookUp(
+                        Engineers,
+                        PersonID = TempTable2[@PersonID],
+                        Name
+                    )
+                )
+            );
+            ClearCollect(
+                FilteredJoinedAllocationTable,
+                If(
+                    !IsEmpty(SelectedEngineers) And !IsEmpty(SelectedProjects),
+                    Filter(
+                        JoinedAllocationTable,
+                        PersonName in SelectedEngineers.Value And Projects in SelectedProjects.Value
+                    ),
+                    !IsEmpty(SelectedEngineers) And IsEmpty(SelectedProjects),
+                    Filter(
+                        JoinedAllocationTable,
+                        PersonName in SelectedEngineers.Value
+                    ),
+                    IsEmpty(SelectedEngineers) And !IsEmpty(SelectedProjects),
+                    Filter(
+                        JoinedAllocationTable,
+                        Projects in SelectedProjects.Value
+                    ),
+                    JoinedAllocationTable
+                )
+            );
+            Clear(TempTable1);
+            Clear(TempTable2);
+            ClearCollect(
+                SplitAllocationTable,
+                ForAll(
+                    FilteredJoinedAllocationTable,
+                    {
+                        AllocationID: ThisRecord.AllocationID,
+                        PersonName: ThisRecord.PersonName,
+                        ProjectName: ThisRecord.Projects,
+                        Month1: If(
+                            Int(ThisRecord.Month) = allocation1MonthNum And ThisRecord.Year = allocation1Year,
+                            ThisRecord.Allocation
+                        ),
+                        Month2: If(
+                            Int(ThisRecord.Month) = allocation2MonthNum And ThisRecord.Year = allocation2Year,
+                            ThisRecord.Allocation
+                        ),
+                        Month3: If(
+                            Int(ThisRecord.Month) = allocation3MonthNum And ThisRecord.Year = allocation3Year,
+                            ThisRecord.Allocation
+                        ),
+                        Month4: If(
+                            Int(ThisRecord.Month) = allocation4MonthNum And ThisRecord.Year = allocation4Year,
+                            ThisRecord.Allocation
+                        ),
+                        Month5: If(
+                            Int(ThisRecord.Month) = allocation5MonthNum And ThisRecord.Year = allocation5Year,
+                            ThisRecord.Allocation
+                        ),
+                        Month6: If(
+                            Int(ThisRecord.Month) = allocation6MonthNum And ThisRecord.Year = allocation6Year,
+                            ThisRecord.Allocation
+                        ),
+                        Month7: If(
+                            Int(ThisRecord.Month) = allocation7MonthNum And ThisRecord.Year = allocation7Year,
+                            ThisRecord.Allocation
+                        ),
+                        Month8: If(
+                            Int(ThisRecord.Month) = allocation8MonthNum And ThisRecord.Year = allocation8Year,
+                            ThisRecord.Allocation
+                        ),
+                        Month9: If(
+                            Int(ThisRecord.Month) = allocation9MonthNum And ThisRecord.Year = allocation9Year,
+                            ThisRecord.Allocation
+                        ),
+                        Month10: If(
+                            Int(ThisRecord.Month) = allocation10MonthNum And ThisRecord.Year = allocation10Year,
+                            ThisRecord.Allocation
+                        ),
+                        Month11: If(
+                            Int(ThisRecord.Month) = allocation11MonthNum And ThisRecord.Year = allocation11Year,
+                            ThisRecord.Allocation
+                        ),
+                        Month12: If(
+                            Int(ThisRecord.Month) = allocation12MonthNum And ThisRecord.Year = allocation12Year,
+                            ThisRecord.Allocation
+                        )
+                    }
+                )
+            );
+            ClearCollect(
+                FormattedAllocationTable,
+                Sort(
+                    Sort(
+                        AddColumns(
+                            AddColumns(
+                                AddColumns(
+                                    AddColumns(
+                                        AddColumns(
+                                            AddColumns(
+                                                AddColumns(
+                                                    AddColumns(
+                                                        AddColumns(
+                                                            AddColumns(
+                                                                AddColumns(
+                                                                    ( AddColumns(
+                                                                        GroupBy(
+                                                                            SplitAllocationTable,
+                                                                            AllocationID,
+                                                                            PersonName,
+                                                                            ProjectName,
+                                                                            subgroup
+                                                                        ),
+                                                                        Month1,
+                                                                        Sum(
+                                                                            subgroup,
+                                                                            Value(Month1)
+                                                                        )
+                                                                    ) ),
+                                                                    Month2,
+                                                                    Sum(
+                                                                        subgroup,
+                                                                        Value(Month2)
+                                                                    )
+                                                                ),
+                                                                Month3,
+                                                                Sum(
+                                                                    subgroup,
+                                                                    Value(Month3)
+                                                                )
+                                                            ),
+                                                            Month4,
+                                                            Sum(
+                                                                subgroup,
+                                                                Value(Month4)
+                                                            )
+                                                        ),
+                                                        Month5,
+                                                        Sum(
+                                                            subgroup,
+                                                            Value(Month5)
+                                                        )
+                                                    ),
+                                                    Month6,
+                                                    Sum(
+                                                        subgroup,
+                                                        Value(Month6)
+                                                    )
+                                                ),
+                                                Month7,
+                                                Sum(
+                                                    subgroup,
+                                                    Value(Month7)
+                                                )
+                                            ),
+                                            Month8,
+                                            Sum(
+                                                subgroup,
+                                                Value(Month8)
+                                            )
+                                        ),
+                                        Month9,
+                                        Sum(
+                                            subgroup,
+                                            Value(Month9)
+                                        )
+                                    ),
+                                    Month10,
+                                    Sum(
+                                        subgroup,
+                                        Value(Month10)
+                                    )
+                                ),
+                                Month11,
+                                Sum(
+                                    subgroup,
+                                    Value(Month11)
+                                )
+                            ),
+                            Month12,
+                            Sum(
+                                subgroup,
+                                Value(Month12)
+                            )
+                        ),
+                        ProjectName
+                    ),
+                    PersonName
+                )
+            );
+            Set(
+                Month1Total,
+                If(
+                    !IsBlank(
+                        Sum(
+                            FormattedAllocationTable,
+                            Month1
+                        )
+                    ),
+                    Text(
+                        Sum(
+                            FormattedAllocationTable,
+                            Month1
+                        )
+                    ),
+                    ""
+                )
+            );
+            Set(
+                Month2Total,
+                If(
+                    !IsBlank(
+                        Sum(
+                            FormattedAllocationTable,
+                            Month2
+                        )
+                    ),
+                    Text(
+                        Sum(
+                            FormattedAllocationTable,
+                            Month2
+                        )
+                    ),
+                    ""
+                )
+            );
+            Set(
+                Month3Total,
+                If(
+                    !IsBlank(
+                        Sum(
+                            FormattedAllocationTable,
+                            Month3
+                        )
+                    ),
+                    Text(
+                        Sum(
+                            FormattedAllocationTable,
+                            Month3
+                        )
+                    ),
+                    ""
+                )
+            );
+            Set(
+                Month4Total,
+                If(
+                    !IsBlank(
+                        Sum(
+                            FormattedAllocationTable,
+                            Month4
+                        )
+                    ),
+                    Text(
+                        Sum(
+                            FormattedAllocationTable,
+                            Month4
+                        )
+                    ),
+                    ""
+                )
+            );
+            Set(
+                Month5Total,
+                If(
+                    !IsBlank(
+                        Sum(
+                            FormattedAllocationTable,
+                            Month5
+                        )
+                    ),
+                    Text(
+                        Sum(
+                            FormattedAllocationTable,
+                            Month5
+                        )
+                    ),
+                    ""
+                )
+            );
+            Set(
+                Month6Total,
+                If(
+                    !IsBlank(
+                        Sum(
+                            FormattedAllocationTable,
+                            Month6
+                        )
+                    ),
+                    Text(
+                        Sum(
+                            FormattedAllocationTable,
+                            Month6
+                        )
+                    ),
+                    ""
+                )
+            );
+            Set(
+                Month7Total,
+                If(
+                    !IsBlank(
+                        Sum(
+                            FormattedAllocationTable,
+                            Month7
+                        )
+                    ),
+                    Text(
+                        Sum(
+                            FormattedAllocationTable,
+                            Month7
+                        )
+                    ),
+                    ""
+                )
+            );
+            Set(
+                Month8Total,
+                If(
+                    !IsBlank(
+                        Sum(
+                            FormattedAllocationTable,
+                            Month8
+                        )
+                    ),
+                    Text(
+                        Sum(
+                            FormattedAllocationTable,
+                            Month8
+                        )
+                    ),
+                    ""
+                )
+            );
+            Set(
+                Month9Total,
+                If(
+                    !IsBlank(
+                        Sum(
+                            FormattedAllocationTable,
+                            Month9
+                        )
+                    ),
+                    Text(
+                        Sum(
+                            FormattedAllocationTable,
+                            Month9
+                        )
+                    ),
+                    ""
+                )
+            );
+            Set(
+                Month10Total,
+                If(
+                    !IsBlank(
+                        Sum(
+                            FormattedAllocationTable,
+                            Month10
+                        )
+                    ),
+                    Text(
+                        Sum(
+                            FormattedAllocationTable,
+                            Month10
+                        )
+                    ),
+                    ""
+                )
+            );
+            Set(
+                Month11Total,
+                If(
+                    !IsBlank(
+                        Sum(
+                            FormattedAllocationTable,
+                            Month11
+                        )
+                    ),
+                    Text(
+                        Sum(
+                            FormattedAllocationTable,
+                            Month11
+                        )
+                    ),
+                    ""
+                )
+            );
+            Set(
+                Month12Total,
+                If(
+                    !IsBlank(
+                        Sum(
+                            FormattedAllocationTable,
+                            Month12
+                        )
+                    ),
+                    Text(
+                        Sum(
+                            FormattedAllocationTable,
+                            Month12
+                        )
+                    ),
+                    ""
+                )
+            );
+            
+            
+            ClearCollect(
+                SplitProjectAllocationTable,
+                ForAll(
+                    ProjectAllocation,
+                    {
+                        Project: ThisRecord.Project,
+                        Month1: If(
+                            Int(ThisRecord.Month) = allocation1MonthNum And ThisRecord.Year = allocation1Year,
+                            Value(ThisRecord.Allocation)
+                        ),
+                        Month2: If(
+                            Int(ThisRecord.Month) = allocation2MonthNum And ThisRecord.Year = allocation2Year,
+                            Value(ThisRecord.Allocation)
+                        ),
+                        Month3: If(
+                            Int(ThisRecord.Month) = allocation3MonthNum And ThisRecord.Year = allocation3Year,
+                            Value(ThisRecord.Allocation)
+                        ),
+                        Month4: If(
+                            Int(ThisRecord.Month) = allocation4MonthNum And ThisRecord.Year = allocation4Year,
+                            Value(ThisRecord.Allocation)
+                        ),
+                        Month5: If(
+                            Int(ThisRecord.Month) = allocation5MonthNum And ThisRecord.Year = allocation5Year,
+                            Value(ThisRecord.Allocation)
+                        ),
+                        Month6: If(
+                            Int(ThisRecord.Month) = allocation6MonthNum And ThisRecord.Year = allocation6Year,
+                            Value(ThisRecord.Allocation)
+                        ),
+                        Month7: If(
+                            Int(ThisRecord.Month) = allocation7MonthNum And ThisRecord.Year = allocation7Year,
+                            Value(ThisRecord.Allocation)
+                        ),
+                        Month8: If(
+                            Int(ThisRecord.Month) = allocation8MonthNum And ThisRecord.Year = allocation8Year,
+                            Value(ThisRecord.Allocation)
+                        ),
+                        Month9: If(
+                            Int(ThisRecord.Month) = allocation9MonthNum And ThisRecord.Year = allocation9Year,
+                            Value(ThisRecord.Allocation)
+                        ),
+                        Month10: If(
+                            Int(ThisRecord.Month) = allocation10MonthNum And ThisRecord.Year = allocation10Year,
+                            Value(ThisRecord.Allocation)
+                        ),
+                        Month11: If(
+                            Int(ThisRecord.Month) = allocation11MonthNum And ThisRecord.Year = allocation11Year,
+                            Value(ThisRecord.Allocation)
+                        ),
+                        Month12: If(
+                            Int(ThisRecord.Month) = allocation12MonthNum And ThisRecord.Year = allocation12Year,
+                            Value(ThisRecord.Allocation)
+                        )
+                    }
+                )
+            );
+            ClearCollect(
+                FormattedProjectAllocationTable,
+                Sort(
+                    AddColumns(
+                        AddColumns(
+                            AddColumns(
+                                AddColumns(
+                                    AddColumns(
+                                        AddColumns(
+                                            AddColumns(
+                                                AddColumns(
+                                                    AddColumns(
+                                                        AddColumns(
+                                                            AddColumns(
+                                                                (AddColumns(
+                                                                    GroupBy(
+                                                                        SplitProjectAllocationTable,
+                                                                        Project,
+                                                                        subgroup
+                                                                    ),
+                                                                    Month1,
+                                                                    Sum(
+                                                                        subgroup,
+                                                                        Value(Month1)
+                                                                    )
+                                                                )),
+                                                                Month2,
+                                                                Sum(
+                                                                    subgroup,
+                                                                    Value(Month2)
+                                                                )
+                                                            ),
+                                                            Month3,
+                                                            Sum(
+                                                                subgroup,
+                                                                Value(Month3)
+                                                            )
+                                                        ),
+                                                        Month4,
+                                                        Sum(
+                                                            subgroup,
+                                                            Value(Month4)
+                                                        )
+                                                    ),
+                                                    Month5,
+                                                    Sum(
+                                                        subgroup,
+                                                        Value(Month5)
+                                                    )
+                                                ),
+                                                Month6,
+                                                Sum(
+                                                    subgroup,
+                                                    Value(Month6)
+                                                )
+                                            ),
+                                            Month7,
+                                            Sum(
+                                                subgroup,
+                                                Value(Month7)
+                                            )
+                                        ),
+                                        Month8,
+                                        Sum(
+                                            subgroup,
+                                            Value(Month8)
+                                        )
+                                    ),
+                                    Month9,
+                                    Sum(
+                                        subgroup,
+                                        Value(Month9)
+                                    )
+                                ),
+                                Month10,
+                                Sum(
+                                    subgroup,
+                                    Value(Month10)
+                                )
+                            ),
+                            Month11,
+                            Sum(
+                                subgroup,
+                                Value(Month11)
+                            )
+                        ),
+                        Month12,
+                        Sum(
+                            subgroup,
+                            Value(Month12)
+                        )
+                    ),
+                    Project
+                )
+            );
+            ClearCollect(
+                ProjectAllocationTable,
+                AddColumns(
+                    AddColumns(
+                        AddColumns(
+                            EngineerAllocation As _EngineerAllocation,
+                            Name,
+                            LookUp(
+                                Engineers,
+                                PersonID = LookUp(
+                                    EngineerProjects,
+                                    AllocationID = _EngineerAllocation.AllocationID,
+                                    PersonID
+                                ),
+                                Name
+                            )
+                        ) As _EngineerAllocation,
+                        Projects,
+                        LookUp(
+                            EngineerProjects,
+                            AllocationID = _EngineerAllocation.AllocationID,
+                            Projects
+                        )
+                    ) As _EngineerAllocation,
+                    WeightedAllocation,
+                    Switch(
+                        Value(_EngineerAllocation.Month),
+                        1,
+                        _EngineerAllocation.Allocation * 4,
+                        2,
+                        _EngineerAllocation.Allocation * 4,
+                        3,
+                        _EngineerAllocation.Allocation * 5,
+                        4,
+                        _EngineerAllocation.Allocation * 4,
+                        5,
+                        _EngineerAllocation.Allocation * 4,
+                        6,
+                        _EngineerAllocation.Allocation * 5,
+                        7,
+                        _EngineerAllocation.Allocation * 4,
+                        8,
+                        _EngineerAllocation.Allocation * 4,
+                        9,
+                        _EngineerAllocation.Allocation * 5,
+                        10,
+                        _EngineerAllocation.Allocation * 4,
+                        11,
+                        _EngineerAllocation.Allocation * 4,
+                        12,
+                        _EngineerAllocation.Allocation * 5,
+                        _EngineerAllocation.Allocation
+                    )
+                )
+            );
+            ClearCollect(
+                GroupedProjectAllocationTable,
+                AddColumns(
+                    GroupBy(
+                        ProjectAllocationTable,
+                        Projects,
+                        Name,
+                        subgroup
+                    ) As _ProjectAllocationTable,
+                    Total,
+                    Round(
+                        (Sum(
+                            _ProjectAllocationTable.subgroup,
+                            WeightedAllocation * (1 + LookUp(
+                                ProjectData,
+                                Project = _ProjectAllocationTable.Projects,
+                                'Fees Discount'
+                            )) * LookUp(
+                                Engineers,
+                                Name = _ProjectAllocationTable.Name,
+                                Rate
+                            ) * 37.5
+                        ) / 1000),
+                        0
+                    )
+                )
+            );
+            ClearCollect(
+                ProjectTotalBookings,
+                AddColumns(
+                    GroupBy(
+                        GroupedProjectAllocationTable,
+                        Projects,
+                        subgroup
+                    ),
+                    'SW Bookings',
+                    Sum(
+                        subgroup,
+                        Total
+                    )
+                )
+            );
+            ClearCollect(
+                ProjectDataTable,
+                AddColumns(
+                    ForAll(
+                        ProjectData,
+                        {
+                            Pipeline: ThisRecord.Pipeline,
+                            BU: ThisRecord.BU,
+                            Team: ThisRecord.Team,
+                            Project: ThisRecord.Project,
+                            Description: ThisRecord.Description,
+                            Account: ThisRecord.Account,
+                            PL: ThisRecord.PL,
+                            'Value (£k)': ThisRecord.'Value (£k)',
+                            'Remaining (£k)': ThisRecord.'Remaining (£k)',
+                            'Fees Discount': ThisRecord.'Fees Discount',
+                            '% SW': ThisRecord.'% SW',
+                            'Duration Mo': ThisRecord.'Duration Mo',
+                            'Sale Date': ThisRecord.'Sale Date',
+                            'Start Date': ThisRecord.'Start Date',
+                            'End Date': ThisRecord.'End Date',
+                            'Prob.': ThisRecord.'Prob.'
+                        }
+                    ) As _ProjectData,
+                    'SW Bookings',
+                    LookUp(
+                        ProjectTotalBookings,
+                        Projects = _ProjectData.Project,
+                        'SW Bookings'
+                    )
+                )
+            );
+            
+            
+            
+            
+            
+            Navigate(EngineerWorkloadAllocationDisplay)
+        Text: |-
+            ="EngineerWorkload Allocation Display
+            "
+        Width: =553
+        X: =350
+        Y: =365
+        ZIndex: =5
+

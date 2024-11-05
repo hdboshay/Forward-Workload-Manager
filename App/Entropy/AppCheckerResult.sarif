@@ -1,0 +1,4086 @@
+{
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.4.json",
+  "runs": [
+    {
+      "columnKind": "utf16CodeUnits",
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "results": [
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProjectSummaryPage.ProjectSummaryGallery.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProjectSummaryPage.ProjectSummaryGallery.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ProjectSummaryPage",
+                "type": "ProjectSummaryPage.ProjectSummaryGallery"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProjectSummaryPage.ProjectSummaryGallery.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProjectSummaryPage.ProjectSummaryGallery.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ProjectSummaryPage",
+                "type": "ProjectSummaryPage.ProjectSummaryGallery"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.AssignEngineer_Container.AssignEngineer_Submit.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.AssignEngineer_Container.AssignEngineer_Submit.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.AssignEngineer_Container.AssignEngineer_Submit"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.AssignEngineer_Container.AssignEngineer_Submit.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.AssignEngineer_Container.AssignEngineer_Submit.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.AssignEngineer_Container.AssignEngineer_Submit"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.AssignEngineer_Container.AssignEngineer_Project_Dropdown.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.AssignEngineer_Container.AssignEngineer_Project_Dropdown.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.AssignEngineer_Container.AssignEngineer_Project_Dropdown"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.AssignEngineer_Container.AssignEngineer_Engineer_Dropdown.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.AssignEngineer_Container.AssignEngineer_Engineer_Dropdown.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.AssignEngineer_Container.AssignEngineer_Engineer_Dropdown"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_BackMonth_Button.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_BackMonth_Button.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_BackMonth_Button"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_BackMonth_Button.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_BackMonth_Button.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_BackMonth_Button"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_ForwardMonth_Button.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_ForwardMonth_Button.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_ForwardMonth_Button"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_ForwardMonth_Button.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_ForwardMonth_Button.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_ForwardMonth_Button"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month1_Label.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month1_Label.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month1_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month1_Label.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month1_Label.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month1_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month2_Label.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month2_Label.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month2_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month2_Label.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month2_Label.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month2_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month3_Label.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month3_Label.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month3_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month3_Label.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month3_Label.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month3_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month4_Label.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month4_Label.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month4_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month4_Label.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month4_Label.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month4_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month5_Label.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month5_Label.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month5_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month5_Label.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month5_Label.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month5_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month6_Label.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month6_Label.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month6_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month6_Label.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month6_Label.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month6_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month7_Label.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month7_Label.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month7_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month7_Label.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month7_Label.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month7_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month8_Label.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month8_Label.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month8_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month8_Label.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month8_Label.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month8_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month9_Label.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month9_Label.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month9_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month9_Label.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month9_Label.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month9_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month10_Label.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month10_Label.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month10_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month10_Label.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month10_Label.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month10_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month11_Label.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month11_Label.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month11_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month11_Label.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month11_Label.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month11_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month12_Label.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month12_Label.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month12_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month12_Label.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month12_Label.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocation_Headers_Container.ProjectListAllocation_Month12_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocationTabel.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocationTabel.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocationTabel"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocationTabel.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectListAllocationTabel.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectListAllocationTabel"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.AverageFee_Container.'Average Fee_Input'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.AverageFee_Container.'Average Fee_Input'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.AverageFee_Container.'Average Fee_Input'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month1_Label_Total.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month1_Label_Total.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month1_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month1_Label_Total.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month1_Label_Total.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month1_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month2_Label_Total.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month2_Label_Total.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month2_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month2_Label_Total.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month2_Label_Total.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month2_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month3_Label_Total.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month3_Label_Total.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month3_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month3_Label_Total.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month3_Label_Total.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month3_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month4_Label_Total.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month4_Label_Total.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month4_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month4_Label_Total.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month4_Label_Total.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month4_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month5_Label_Total.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month5_Label_Total.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month5_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month5_Label_Total.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month5_Label_Total.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month5_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month6_Label_Total.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month6_Label_Total.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month6_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month6_Label_Total.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month6_Label_Total.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month6_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month7_Label_Total.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month7_Label_Total.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month7_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month7_Label_Total.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month7_Label_Total.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month7_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month8_Label_Total.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month8_Label_Total.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month8_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month8_Label_Total.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month8_Label_Total.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month8_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month9_Label_Total.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month9_Label_Total.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month9_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month9_Label_Total.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month9_Label_Total.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month9_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month10_Label_Total.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month10_Label_Total.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month10_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month10_Label_Total.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month10_Label_Total.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month10_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month11_Label_Total.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month11_Label_Total.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month11_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month11_Label_Total.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month11_Label_Total.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month11_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month12_Label_Total.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month12_Label_Total.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month12_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month12_Label_Total.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month12_Label_Total.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.ProjectAllocation_TotalsContainer.ProjectAllocation_Month12_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.SelectEngineer_Combo.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.SelectEngineer_Combo.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.SelectEngineer_Combo"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.SelectProject_Combo.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.SelectProject_Combo.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.SelectProject_Combo"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month1_Label.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month1_Label.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month1_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month1_Label.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month1_Label.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month1_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month2_Label.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month2_Label.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month2_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month2_Label.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month2_Label.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month2_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month3_Label.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month3_Label.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month3_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month3_Label.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month3_Label.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month3_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month4_Label.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month4_Label.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month4_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month4_Label.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month4_Label.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month4_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month5_Label.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month5_Label.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month5_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month5_Label.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month5_Label.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month5_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month6_Label.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month6_Label.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month6_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month6_Label.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month6_Label.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month6_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month7_Label.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month7_Label.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month7_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month7_Label.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month7_Label.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month7_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month8_Label.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month8_Label.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month8_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month8_Label.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month8_Label.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month8_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month9_Label.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month9_Label.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month9_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month9_Label.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month9_Label.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month9_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month10_Label.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month10_Label.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month10_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month10_Label.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month10_Label.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month10_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month11_Label.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month11_Label.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month11_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month11_Label.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month11_Label.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month11_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month12_Label.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month12_Label.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month12_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month12_Label.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month12_Label.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocation_HeaderLabels.WorkloadAllocation_Month12_Label"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month1_Input.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month1_Input.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month1_Input"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month2_Input.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month2_Input.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month2_Input"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_9.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_9.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_10.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_10.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkloadAllocationTable.WorkloadAllocation_Month3_Input_10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month1_Label_Total.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month1_Label_Total.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month1_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month1_Label_Total.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month1_Label_Total.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month1_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month2_Label_Total.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month2_Label_Total.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month2_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month2_Label_Total.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month2_Label_Total.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month2_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month3_Label_Total.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month3_Label_Total.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month3_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month3_Label_Total.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month3_Label_Total.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month3_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month4_Label_Total.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month4_Label_Total.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month4_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month4_Label_Total.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month4_Label_Total.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month4_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month5_Label_Total.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month5_Label_Total.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month5_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month5_Label_Total.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month5_Label_Total.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month5_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month6_Label_Total.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month6_Label_Total.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month6_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month6_Label_Total.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month6_Label_Total.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month6_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month7_Label_Total.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month7_Label_Total.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month7_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month7_Label_Total.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month7_Label_Total.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month7_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month8_Label_Total.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month8_Label_Total.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month8_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month8_Label_Total.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month8_Label_Total.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month8_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month9_Label_Total.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month9_Label_Total.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month9_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month9_Label_Total.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month9_Label_Total.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month9_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month10_Label_Total.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month10_Label_Total.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month10_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month10_Label_Total.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month10_Label_Total.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month10_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month11_Label_Total.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month11_Label_Total.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month11_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month11_Label_Total.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month11_Label_Total.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month11_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month12_Label_Total.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month12_Label_Total.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month12_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month12_Label_Total.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month12_Label_Total.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay.WorkAllocation_TotalsContainer.WorkloadAllocation_Month12_Label_Total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AddEngineer.CreateEngineer_Container.CreateEngineer_Submit.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AddEngineer.CreateEngineer_Container.CreateEngineer_Submit.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "AddEngineer",
+                "type": "AddEngineer.CreateEngineer_Container.CreateEngineer_Submit"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AddEngineer.CreateEngineer_Container.CreateEngineer_Submit.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AddEngineer.CreateEngineer_Container.CreateEngineer_Submit.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "AddEngineer",
+                "type": "AddEngineer.CreateEngineer_Container.CreateEngineer_Submit"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AddEngineer.CreateEngineer_Container.CreateEngineer_Name_Input.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AddEngineer.CreateEngineer_Container.CreateEngineer_Name_Input.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "AddEngineer",
+                "type": "AddEngineer.CreateEngineer_Container.CreateEngineer_Name_Input"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AddEngineer.CreateEngineer_Container.CreateEngineer_BU_Input.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AddEngineer.CreateEngineer_Container.CreateEngineer_BU_Input.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "AddEngineer",
+                "type": "AddEngineer.CreateEngineer_Container.CreateEngineer_BU_Input"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AddEngineer.CreateEngineer_Container.CreateEngineer_Team_Input.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AddEngineer.CreateEngineer_Container.CreateEngineer_Team_Input.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "AddEngineer",
+                "type": "AddEngineer.CreateEngineer_Container.CreateEngineer_Team_Input"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AddEngineer.CreateEngineer_Container.CreateEngineer_EE_Input.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AddEngineer.CreateEngineer_Container.CreateEngineer_EE_Input.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "AddEngineer",
+                "type": "AddEngineer.CreateEngineer_Container.CreateEngineer_EE_Input"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AddEngineer.CreateEngineer_Container.CreateEngineer_Rate_Input.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AddEngineer.CreateEngineer_Container.CreateEngineer_Rate_Input.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "AddEngineer",
+                "type": "AddEngineer.CreateEngineer_Container.CreateEngineer_Rate_Input"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EngineerWorkloadAllocationDisplay",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "module": "EngineerWorkloadAllocationDisplay",
+                "type": "EngineerWorkloadAllocationDisplay"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-ScreenHasManyControls",
+          "ruleIndex": 3
+        }
+      ],
+      "tool": {
+        "driver": {
+          "fullName": "PowerApps app checker",
+          "name": "PowerApps app checker",
+          "rules": [
+            {
+              "id": "acc-AccessibleLabelNeeded",
+              "messageStrings": {
+                "issue": {
+                  "text": "Missing accessible label"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Edit the accessible label property to describe the item."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
+              }
+            },
+            {
+              "id": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+              "messageStrings": {
+                "issue": {
+                  "text": "Missing tab stop"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Set TabIndex to 0 or greater to ensure that interactive elements have a tab stop."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
+              }
+            },
+            {
+              "id": "acc-FocusBorderShouldBeVisible",
+              "messageStrings": {
+                "issue": {
+                  "text": "Focus isn't showing"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Change the FocusedBorderThickness property to be more than 0."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "If the focus isn't visible, people who don't use a mouse won't be able to see it when they're interacting with the app."
+              }
+            },
+            {
+              "id": "app-ScreenHasManyControls",
+              "messageStrings": {
+                "issue": {
+                  "text": "Too many controls on a screen"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Reduce the number of controls on the screen.",
+                  "Break the app into more screens to reduce the per-screen complexity.",
+                  "Use components to unify grouped controls that are identical across screens, reducing duplication.",
+                  "Use galleries to represent a series of repeated similar controls.",
+                  "Break the app into multiple apps so that each app is small and performant."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "Each control consumes resources, and an app may become slow or unresponsive if a screen has too many controls. The estimated complexity of \"EngineerWorkloadAllocationDisplay\" is 328, which exceeds the maximum threshold recommended (300)."
+              }
+            }
+          ],
+          "version": "1.343"
+        }
+      }
+    }
+  ],
+  "version": "2.1.0"
+}

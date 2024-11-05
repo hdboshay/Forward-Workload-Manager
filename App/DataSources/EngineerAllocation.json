@@ -1,0 +1,23 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2024-06-06T15:21:00.0640000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "__PowerAppsId__": "Row id",
+      "Allocation": "Allocation",
+      "AllocationID": "AllocationID",
+      "Month": "Month",
+      "Year": "Year"
+    },
+    "DatasetName": "798C09219C6D1624!85758",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "EngineerAllocation",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]

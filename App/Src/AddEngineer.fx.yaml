@@ -1,0 +1,185 @@
+AddEngineer As screen:
+
+    NewEngineerLabel As label:
+        Height: =34
+        Text: ="Create New Engineer"
+        Width: =351
+        X: =40
+        Y: =98
+        ZIndex: =1
+
+    HomeButton_Component_3 As HomeButton_Component:
+        HomeScreen: =Home
+        ZIndex: =8
+
+    CreateEngineer_Container As groupContainer.manualLayoutContainer:
+        Height: =95
+        Width: =1366
+        Y: =203
+        ZIndex: =9
+
+        CreateEngineer_Submit As icon.Check:
+            Icon: =Icon.Check
+            OnSelect: |-
+                =If(
+                    IsBlank(CreateEngineer_Name_Input.Text) 
+                            Or IsBlank(CreateEngineer_BU_Input.Text)
+                            Or IsBlank(CreateEngineer_Team_Input.Text)
+                            Or IsBlank(CreateEngineer_EE_Input.Text)
+                            Or IsBlank(CreateEngineer_Rate_Input.Text),
+                    Set(CreateEngineer_Error_Text, "Please enter ALL fields"),
+                
+                    Set(newGUID, Text(GUID()));
+                
+                    Patch(Engineers, 
+                        Defaults(Engineers), 
+                        {
+                            PersonID: newGUID,
+                            Name: CreateEngineer_Name_Input.Text,
+                            BU: CreateEngineer_BU_Input.Text,
+                            Team: CreateEngineer_Team_Input.Text,
+                            'EE #': CreateEngineer_EE_Input.Text,
+                            Rate: Value(CreateEngineer_Rate_Input.Text)
+                        }
+                    );
+                
+                    Set(CreateEngineer_Error_Text, "Engineer Created");
+                
+                    Reset(CreateEngineer_Name_Input);
+                    Reset(CreateEngineer_BU_Input);
+                    Reset(CreateEngineer_Team_Input);
+                    Reset(CreateEngineer_EE_Input);
+                    Reset(CreateEngineer_Rate_Input);
+                );
+            X: =1277
+            Y: =12
+            ZIndex: =3
+
+        CreateEngineer_Name_Input As text:
+            Default: =""
+            HintText: ="Enter Name..."
+            OnSelect: =Self.Text = ""
+            Width: =210
+            X: =24
+            Y: =24
+            ZIndex: =4
+
+        CreateEngineer_BU_Input As text:
+            Default: =""
+            HintText: ="Enter BU..."
+            Width: =123
+            X: =264
+            Y: =24
+            ZIndex: =5
+
+        CreateEngineer_Team_Input As text:
+            Default: =""
+            HintText: ="Enter Team..."
+            Width: =136
+            X: =417
+            Y: =24
+            ZIndex: =6
+
+        CreateEngineer_EE_Input As text:
+            Default: =""
+            HintText: |-
+                ="Enter EE#..."
+            Width: =123
+            X: =566
+            Y: =24
+            ZIndex: =7
+
+        CreateEngineer_Rate_Input As text:
+            Default: =""
+            Format: =TextFormat.Number
+            HintText: ="Enter Rate..."
+            Width: =123
+            X: =713
+            Y: =24
+            ZIndex: =8
+
+    CreateEngineer_Label As label:
+        Align: =Align.Center
+        Height: =45
+        Text: ="Create an Engineer"
+        Width: =419
+        X: =473
+        Y: =153
+        ZIndex: =10
+
+    CreateEngineer_Error As label:
+        Align: =Align.Center
+        Color: =Color.Red
+        Height: =53
+        Text: =CreateEngineer_Error_Text
+        Width: =813
+        X: =276
+        Y: =298
+        ZIndex: =11
+
+    CurrentEngineersTable As dataGrid:
+        Height: =354
+        Items: =Sort(Engineers, Name)
+        Width: =1366
+        Y: =412
+        ZIndex: =12
+
+        Name As customControl.dataColumn:
+            AutoWidth: =true
+            DisplayName: ="Name"
+            FieldName: ="Name"
+            Height: =0
+            IsHyperlink: =false
+            Order: =0
+            Required: =false
+            TitleProperty: =""
+            Type: ="s"
+            VariantName: ="textualViewCard"
+            Width: =453
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+        BU As customControl.dataColumn:
+            AutoWidth: =true
+            DisplayName: ="BU"
+            FieldName: ="BU"
+            Height: =0
+            IsHyperlink: =false
+            Order: =1
+            Required: =false
+            TitleProperty: =""
+            Type: ="s"
+            VariantName: ="textualViewCard"
+            Width: =453
+            X: =0
+            Y: =0
+            ZIndex: =2
+
+        Team As customControl.dataColumn:
+            AutoWidth: =true
+            DisplayName: ="Team"
+            FieldName: ="Team"
+            Height: =0
+            IsHyperlink: =false
+            Order: =2
+            Required: =false
+            TitleProperty: =""
+            Type: ="s"
+            VariantName: ="textualViewCard"
+            Width: =453
+            X: =0
+            Y: =0
+            ZIndex: =3
+
+    CurrentEngineersTable_Label As label:
+        Align: =Align.Center
+        Color: =Color.Black
+        FontWeight: =FontWeight.Bold
+        Height: =53
+        Text: ="Current Engineers"
+        Width: =813
+        X: =276
+        Y: =359
+        ZIndex: =13
+

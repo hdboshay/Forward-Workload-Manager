@@ -1,0 +1,56 @@
+{
+  "642f311b-4187-4eef-9b9e-d7c7515ab057": {
+    "connectionRef": {
+      "displayName": "Excel",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1694/1.0.1694.3752/excel/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_excel"
+    },
+    "datasets": {
+      "798C09219C6D1624!85758": {
+        "dataSources": {
+          "EngineerAllocation": {
+            "tableName": "EngineerAllocation"
+          },
+          "EngineerProjects": {
+            "tableName": "EngineerProjects"
+          },
+          "Engineers": {
+            "tableName": "Engineers"
+          },
+          "ProjectAllocation": {
+            "tableName": "ProjectAllocation"
+          },
+          "ProjectData": {
+            "tableName": "ProjectData"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "EngineerAllocation",
+      "ProjectData",
+      "Engineers",
+      "EngineerProjects",
+      "ProjectAllocation"
+    ],
+    "dependencies": {
+      "fileSource": "8f9b9092-51d3-4d61-900d-f20b336e41d8"
+    },
+    "dependents": [],
+    "id": "642f311b-4187-4eef-9b9e-d7c7515ab057"
+  },
+  "8f9b9092-51d3-4d61-900d-f20b336e41d8": {
+    "connectionRef": {
+      "displayName": "OneDrive",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1689/1.0.1689.3722/onedrive/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_onedrive"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "642f311b-4187-4eef-9b9e-d7c7515ab057"
+    ],
+    "id": "8f9b9092-51d3-4d61-900d-f20b336e41d8"
+  }
+}
